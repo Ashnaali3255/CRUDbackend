@@ -1,0 +1,29 @@
+{
+  "name": "crudbyden",
+  "version": "1.0.0",
+  "description": "Task 4: Build a CRUD App Time to level up: build real data-driven apps with full CRUD power! Goal: Develop a simple web app where users can add, view, edit, and delete items - to understand how data flows between frontend and backend.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashnaali3255/CRUDbyDEN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Ashnaali3255/CRUDbyDEN/issues"
+  },
+  "homepage": "https://github.com/Ashnaali3255/CRUDbyDEN#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.3"
+  }
+}
